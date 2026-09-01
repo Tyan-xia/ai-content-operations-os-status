@@ -1,0 +1,9 @@
+{
+  "standardVersion": "1.0",
+  "id": "ai-content-operations-os",
+  "name": "企业AI内容运营操作系统",
+  "description": "让一个人借助AI高效运营企业自媒体，持续获得精准客户线索并促进成交。",
+  "defaultBranch": "main",
+  "sourceRepoUrl": "https://github.com/Tyan-xia/ai-content-operations-os",
+  "sourceRevision": "479bc0897b6e7f0db05a4b39874a39d37ff5d5d7"
+}

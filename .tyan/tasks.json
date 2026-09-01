@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": "M02-01",
+      "title": "完成四级业务配置结构",
+      "module": "企业知识与规则中心",
+      "status": "已完成",
+      "owner": "Tyan + Codex",
+      "due": "2026-08-29"
+    },
+    {
+      "id": "M02-02",
+      "title": "确认企业上下文包组成",
+      "module": "企业知识与规则中心",
+      "status": "已完成",
+      "owner": "Tyan + Codex",
+      "due": "2026-08-29"
+    },
+    {
+      "id": "M02-03",
+      "title": "确认字段继承与冲突规则",
+      "module": "企业知识与规则中心",
+      "status": "已完成",
+      "owner": "Tyan + Codex",
+      "due": "2026-08-29"
+    },
+    {
+      "id": "M02-04",
+      "title": "确认知识来源、证据与更新机制",
+      "module": "企业知识与规则中心",
+      "status": "已完成",
+      "owner": "Tyan + Codex",
+      "due": "2026-08-29"
+    },
+    {
+      "id": "M02-05",
+      "title": "确认权限、企业隔离与版本管理",
+      "module": "企业知识与规则中心",
+      "status": "已完成",
+      "owner": "Tyan + Codex",
+      "due": "2026-08-29"
+    },
+    {
+      "id": "M02-06",
+      "title": "确认主Agent、协同Agent、工具、存储与部署方案",
+      "module": "企业知识与规则中心",
+      "status": "进行中",
+      "owner": "Tyan + Codex",
+      "due": "待确认"
+    },
+    {
+      "id": "M02-07",
+      "title": "定义第一版范围与验收标准",
+      "module": "企业知识与规则中心",
+      "status": "待开始",
+      "owner": "Tyan + Codex",
+      "due": "M02-06之后"
+    }
+  ]
+}

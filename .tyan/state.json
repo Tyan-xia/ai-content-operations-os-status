@@ -1,7 +1,7 @@
 {
-  "status": "Building",
-  "current": "企业知识与规则中心 · Agent、工具、存储与部署方案",
-  "next": "确认企业知识与规则中心的主Agent和协同Agent组成",
-  "updatedAt": "2026-08-29",
+  "status": "Designed",
+  "current": "完整架构 v1.0.0 已确认并合并；八模块架构已定，产品待实施，18 项运行验证待执行",
+  "next": "等待下一阶段实施授权及首发配置；暂不开发或部署",
+  "updatedAt": "2026-09-03",
   "demo": null
 }

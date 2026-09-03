@@ -5,7 +5,7 @@
       "name": "企业目标与边界",
       "cn": "Goal & Guardrails",
       "description": "定义经营目标，以及预算、合规、数据和审批边界。",
-      "status": "Validated",
+      "status": "Designed",
       "input": "企业经营目标与限制条件",
       "output": "已确认的目标、边界与全局规则",
       "sourcePaths": ["architecture/project-ledger.json"]
@@ -15,16 +15,16 @@
       "name": "企业知识与规则中心",
       "cn": "Knowledge & Rules",
       "description": "建立通用内核、企业独立配置、企业独立知识库和规则版本。",
-      "status": "Building",
+      "status": "Designed",
       "input": "企业目标、边界、资料与业务配置",
       "output": "可供后续模块调用的企业上下文包",
-      "sourcePaths": ["architecture/project-ledger.json", "app/"]
+      "sourcePaths": ["architecture/project-ledger.json"]
     },
     {
       "id": "M-03",
       "name": "市场情报智能体",
       "cn": "Market Intelligence",
-      "description": "自动采集行业、平台、竞品、客户和企业内部信号。",
+      "description": "在授权范围内周期更新与按需补采市场信号，整理证据和不确定性。",
       "status": "Designed",
       "input": "企业上下文与多渠道信号源",
       "output": "已溯源的市场机会与风险信号",
@@ -34,19 +34,19 @@
       "id": "M-04",
       "name": "Gate 1 · 选题决策",
       "cn": "Topic Decision",
-      "description": "综合企业目标、市场机会和历史效果，输出结构化选题组合。",
+      "description": "按五维价值评分比较选题并形成组合，进入生产前须人工明确批准。",
       "status": "Designed",
       "input": "市场信号、企业目标与历史数据",
-      "output": "通过决策门的选题组合",
+      "output": "经人工批准的选题决策包",
       "sourcePaths": ["architecture/project-ledger.json"]
     },
     {
       "id": "M-05",
       "name": "内容策略与生产",
       "cn": "Content Production",
-      "description": "把通过Gate 1的选题转化为依据、脚本、素材、成品和发布资产包。",
+      "description": "把人工批准的选题转化为策略、脚本、图文或模板化视频成品及证据。",
       "status": "Designed",
-      "input": "已通过Gate 1的选题",
+      "input": "经人工批准的选题决策包",
       "output": "脚本、素材、成品与发布资产包",
       "sourcePaths": ["architecture/project-ledger.json"]
     },
@@ -54,19 +54,19 @@
       "id": "M-06",
       "name": "Gate 2 / Gate 3",
       "cn": "Quality & Risk Gates",
-      "description": "完成内容质量审查，以及发布前的风险、权限和最终审批。",
+      "description": "Gate 2 审查最终候选版本的质量与证据，Gate 3 校验发布条件并由人批准。",
       "status": "Designed",
-      "input": "待审核的内容资产",
-      "output": "质量结论、风险结论与发布许可",
+      "input": "发布准备阶段形成的最终候选版本与证据",
+      "output": "内容质量结论与人工批准的发布许可",
       "sourcePaths": ["architecture/project-ledger.json"]
     },
     {
       "id": "M-07",
       "name": "多平台发布与运营",
       "cn": "Publishing & Operations",
-      "description": "完成平台适配、排期、发布、互动监控和异常处理。",
+      "description": "区分发布准备与执行；审核前完成技术适配，取得许可后发布并核对真实回执。",
       "status": "Designed",
-      "input": "已批准的内容与发布计划",
+      "input": "待适配成品；执行发布另需人工批准的发布许可",
       "output": "多平台发布结果与运营数据",
       "sourcePaths": ["architecture/project-ledger.json"]
     },
@@ -74,10 +74,10 @@
       "id": "M-08",
       "name": "数据、CRM与学习循环",
       "cn": "Data, CRM & Learning",
-      "description": "回收内容数据、有效询盘和成交反馈，持续更新知识和决策。",
+      "description": "回收效果、询盘与成交事实并提出学习建议，不自动改写核心事实或已确认规则。",
       "status": "Designed",
       "input": "平台数据、询盘与成交反馈",
-      "output": "学习结论、知识更新与下一轮决策依据",
+      "output": "效果与线索台账、候选知识更新及学习建议",
       "sourcePaths": ["architecture/project-ledger.json"]
     }
   ]

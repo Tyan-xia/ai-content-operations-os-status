@@ -44,17 +44,49 @@
       "id": "M02-06",
       "title": "确认主Agent、协同Agent、工具、存储与部署方案",
       "module": "企业知识与规则中心",
-      "status": "进行中",
+      "status": "已完成",
       "owner": "Tyan + Codex",
-      "due": "待确认"
+      "due": "未设定"
     },
     {
       "id": "M02-07",
       "title": "定义第一版范围与验收标准",
       "module": "企业知识与规则中心",
-      "status": "待开始",
+      "status": "已完成",
       "owner": "Tyan + Codex",
-      "due": "M02-06之后"
+      "due": "未设定"
+    },
+    {
+      "id": "ARCH-01",
+      "title": "完成八模块架构设计、总览确认与正式合并（含确认决策及授权默认）",
+      "module": "完整架构",
+      "status": "已完成",
+      "owner": "Tyan + Codex",
+      "due": "未设定"
+    },
+    {
+      "id": "ARCH-02",
+      "title": "完成跨模块契约与 18 项故障验证用例的设计；实际用例尚未执行",
+      "module": "完整架构",
+      "status": "已完成",
+      "owner": "Tyan + Codex",
+      "due": "未设定"
+    },
+    {
+      "id": "IMPL-01",
+      "title": "取得下一阶段实施授权并落实首发配置",
+      "module": "实施准备",
+      "status": "待授权",
+      "owner": "Tyan + Codex",
+      "due": "未设定"
+    },
+    {
+      "id": "VERIFY-01",
+      "title": "执行 18 项运行验证并收集故障定位、修复及复测证据",
+      "module": "运行验收",
+      "status": "待执行",
+      "owner": "Tyan + Codex",
+      "due": "实施后"
     }
   ]
 }
